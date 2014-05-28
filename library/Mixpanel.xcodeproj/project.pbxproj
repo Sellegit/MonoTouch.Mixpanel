@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B025391934F0D000125D87 /* Mixpanel+LLAAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B025381934F0D000125D87 /* Mixpanel+LLAAdditions.m */; };
+		33D6854B1933608400BD36A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D6854A1933608400BD36A5 /* Foundation.framework */; };
+		33D6858A1933612200BD36A5 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685721933612200BD36A5 /* Mixpanel.m */; };
+		33D6858B1933612200BD36A5 /* MPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685741933612200BD36A5 /* MPNotification.m */; };
+		33D6858C1933612200BD36A5 /* MPNotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685761933612200BD36A5 /* MPNotificationViewController.m */; };
+		33D6858D1933612200BD36A5 /* MPSurvey.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685781933612200BD36A5 /* MPSurvey.m */; };
+		33D6858E1933612200BD36A5 /* MPSurveyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D6857B1933612200BD36A5 /* MPSurveyNavigationController.m */; };
+		33D6858F1933612200BD36A5 /* MPSurveyQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D6857D1933612200BD36A5 /* MPSurveyQuestion.m */; };
+		33D685901933612200BD36A5 /* MPSurveyQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D6857F1933612200BD36A5 /* MPSurveyQuestionViewController.m */; };
+		33D685911933612200BD36A5 /* NSData+MPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685811933612200BD36A5 /* NSData+MPBase64.m */; };
+		33D685921933612200BD36A5 /* UIColor+MPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685831933612200BD36A5 /* UIColor+MPColor.m */; };
+		33D685931933612200BD36A5 /* UIImage+MPAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685851933612200BD36A5 /* UIImage+MPAverageColor.m */; };
+		33D685941933612200BD36A5 /* UIImage+MPImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685871933612200BD36A5 /* UIImage+MPImageEffects.m */; };
+		33D685951933612200BD36A5 /* UIView+MPSnapshotImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D685891933612200BD36A5 /* UIView+MPSnapshotImage.m */; };
+		33D6859C193366E600BD36A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33D6859B193366E600BD36A5 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33D685451933608400BD36A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33B025371934F0D000125D87 /* Mixpanel+LLAAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mixpanel+LLAAdditions.h"; sourceTree = SOURCE_ROOT; };
+		33B025381934F0D000125D87 /* Mixpanel+LLAAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mixpanel+LLAAdditions.m"; sourceTree = SOURCE_ROOT; };
+		33D685471933608400BD36A5 /* libMixpanel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMixpanel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D6854A1933608400BD36A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33D6855B1933608400BD36A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33D685701933610A00BD36A5 /* Mixpanel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Mixpanel-Prefix.pch"; path = "Other Sources/Mixpanel-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		33D685711933612200BD36A5 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mixpanel.h; path = "mixpanel-iphone/Mixpanel/Mixpanel.h"; sourceTree = SOURCE_ROOT; };
+		33D685721933612200BD36A5 /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mixpanel.m; path = "mixpanel-iphone/Mixpanel/Mixpanel.m"; sourceTree = SOURCE_ROOT; };
+		33D685731933612200BD36A5 /* MPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPNotification.h; path = "mixpanel-iphone/Mixpanel/MPNotification.h"; sourceTree = SOURCE_ROOT; };
+		33D685741933612200BD36A5 /* MPNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNotification.m; path = "mixpanel-iphone/Mixpanel/MPNotification.m"; sourceTree = SOURCE_ROOT; };
+		33D685751933612200BD36A5 /* MPNotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPNotificationViewController.h; path = "mixpanel-iphone/Mixpanel/MPNotificationViewController.h"; sourceTree = SOURCE_ROOT; };
+		33D685761933612200BD36A5 /* MPNotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPNotificationViewController.m; path = "mixpanel-iphone/Mixpanel/MPNotificationViewController.m"; sourceTree = SOURCE_ROOT; };
+		33D685771933612200BD36A5 /* MPSurvey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurvey.h; path = "mixpanel-iphone/Mixpanel/MPSurvey.h"; sourceTree = SOURCE_ROOT; };
+		33D685781933612200BD36A5 /* MPSurvey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSurvey.m; path = "mixpanel-iphone/Mixpanel/MPSurvey.m"; sourceTree = SOURCE_ROOT; };
+		33D6857A1933612200BD36A5 /* MPSurveyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurveyNavigationController.h; path = "mixpanel-iphone/Mixpanel/MPSurveyNavigationController.h"; sourceTree = SOURCE_ROOT; };
+		33D6857B1933612200BD36A5 /* MPSurveyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSurveyNavigationController.m; path = "mixpanel-iphone/Mixpanel/MPSurveyNavigationController.m"; sourceTree = SOURCE_ROOT; };
+		33D6857C1933612200BD36A5 /* MPSurveyQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurveyQuestion.h; path = "mixpanel-iphone/Mixpanel/MPSurveyQuestion.h"; sourceTree = SOURCE_ROOT; };
+		33D6857D1933612200BD36A5 /* MPSurveyQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSurveyQuestion.m; path = "mixpanel-iphone/Mixpanel/MPSurveyQuestion.m"; sourceTree = SOURCE_ROOT; };
+		33D6857E1933612200BD36A5 /* MPSurveyQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPSurveyQuestionViewController.h; path = "mixpanel-iphone/Mixpanel/MPSurveyQuestionViewController.h"; sourceTree = SOURCE_ROOT; };
+		33D6857F1933612200BD36A5 /* MPSurveyQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPSurveyQuestionViewController.m; path = "mixpanel-iphone/Mixpanel/MPSurveyQuestionViewController.m"; sourceTree = SOURCE_ROOT; };
+		33D685801933612200BD36A5 /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+MPBase64.h"; path = "mixpanel-iphone/Mixpanel/NSData+MPBase64.h"; sourceTree = SOURCE_ROOT; };
+		33D685811933612200BD36A5 /* NSData+MPBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+MPBase64.m"; path = "mixpanel-iphone/Mixpanel/NSData+MPBase64.m"; sourceTree = SOURCE_ROOT; };
+		33D685821933612200BD36A5 /* UIColor+MPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+MPColor.h"; path = "mixpanel-iphone/Mixpanel/UIColor+MPColor.h"; sourceTree = SOURCE_ROOT; };
+		33D685831933612200BD36A5 /* UIColor+MPColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MPColor.m"; path = "mixpanel-iphone/Mixpanel/UIColor+MPColor.m"; sourceTree = SOURCE_ROOT; };
+		33D685841933612200BD36A5 /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MPAverageColor.h"; path = "mixpanel-iphone/Mixpanel/UIImage+MPAverageColor.h"; sourceTree = SOURCE_ROOT; };
+		33D685851933612200BD36A5 /* UIImage+MPAverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPAverageColor.m"; path = "mixpanel-iphone/Mixpanel/UIImage+MPAverageColor.m"; sourceTree = SOURCE_ROOT; };
+		33D685861933612200BD36A5 /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+MPImageEffects.h"; path = "mixpanel-iphone/Mixpanel/UIImage+MPImageEffects.h"; sourceTree = SOURCE_ROOT; };
+		33D685871933612200BD36A5 /* UIImage+MPImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPImageEffects.m"; path = "mixpanel-iphone/Mixpanel/UIImage+MPImageEffects.m"; sourceTree = SOURCE_ROOT; };
+		33D685881933612200BD36A5 /* UIView+MPSnapshotImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+MPSnapshotImage.h"; path = "mixpanel-iphone/Mixpanel/UIView+MPSnapshotImage.h"; sourceTree = SOURCE_ROOT; };
+		33D685891933612200BD36A5 /* UIView+MPSnapshotImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+MPSnapshotImage.m"; path = "mixpanel-iphone/Mixpanel/UIView+MPSnapshotImage.m"; sourceTree = SOURCE_ROOT; };
+		33D6859B193366E600BD36A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D685441933608400BD36A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D6859C193366E600BD36A5 /* UIKit.framework in Frameworks */,
+				33D6854B1933608400BD36A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D6853E1933608400BD36A5 = {
+			isa = PBXGroup;
+			children = (
+				33D6854C1933608400BD36A5 /* Mixpanel */,
+				33D6854D1933608400BD36A5 /* Other Sources */,
+				33D685491933608400BD36A5 /* Frameworks */,
+				33D685481933608400BD36A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D685481933608400BD36A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D685471933608400BD36A5 /* libMixpanel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D685491933608400BD36A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33D6859B193366E600BD36A5 /* UIKit.framework */,
+				33D6854A1933608400BD36A5 /* Foundation.framework */,
+				33D6855B1933608400BD36A5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33D6854C1933608400BD36A5 /* Mixpanel */ = {
+			isa = PBXGroup;
+			children = (
+				33D685711933612200BD36A5 /* Mixpanel.h */,
+				33D685721933612200BD36A5 /* Mixpanel.m */,
+				33D685731933612200BD36A5 /* MPNotification.h */,
+				33D685741933612200BD36A5 /* MPNotification.m */,
+				33D685751933612200BD36A5 /* MPNotificationViewController.h */,
+				33D685761933612200BD36A5 /* MPNotificationViewController.m */,
+				33D685771933612200BD36A5 /* MPSurvey.h */,
+				33D685781933612200BD36A5 /* MPSurvey.m */,
+				33D6857A1933612200BD36A5 /* MPSurveyNavigationController.h */,
+				33D6857B1933612200BD36A5 /* MPSurveyNavigationController.m */,
+				33D6857C1933612200BD36A5 /* MPSurveyQuestion.h */,
+				33D6857D1933612200BD36A5 /* MPSurveyQuestion.m */,
+				33D6857E1933612200BD36A5 /* MPSurveyQuestionViewController.h */,
+				33D6857F1933612200BD36A5 /* MPSurveyQuestionViewController.m */,
+				33D685801933612200BD36A5 /* NSData+MPBase64.h */,
+				33D685811933612200BD36A5 /* NSData+MPBase64.m */,
+				33D685821933612200BD36A5 /* UIColor+MPColor.h */,
+				33D685831933612200BD36A5 /* UIColor+MPColor.m */,
+				33D685841933612200BD36A5 /* UIImage+MPAverageColor.h */,
+				33D685851933612200BD36A5 /* UIImage+MPAverageColor.m */,
+				33D685861933612200BD36A5 /* UIImage+MPImageEffects.h */,
+				33D685871933612200BD36A5 /* UIImage+MPImageEffects.m */,
+				33D685881933612200BD36A5 /* UIView+MPSnapshotImage.h */,
+				33D685891933612200BD36A5 /* UIView+MPSnapshotImage.m */,
+				33B025371934F0D000125D87 /* Mixpanel+LLAAdditions.h */,
+				33B025381934F0D000125D87 /* Mixpanel+LLAAdditions.m */,
+			);
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
+		33D6854D1933608400BD36A5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				33D685701933610A00BD36A5 /* Mixpanel-Prefix.pch */,
+			);
+			name = "Other Sources";
+			path = Mixpanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D685461933608400BD36A5 /* Mixpanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D6856A1933608400BD36A5 /* Build configuration list for PBXNativeTarget "Mixpanel" */;
+			buildPhases = (
+				33D685431933608400BD36A5 /* Sources */,
+				33D685441933608400BD36A5 /* Frameworks */,
+				33D685451933608400BD36A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mixpanel;
+			productName = Mixpanel;
+			productReference = 33D685471933608400BD36A5 /* libMixpanel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D6853F1933608400BD36A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lukas Lipka";
+			};
+			buildConfigurationList = 33D685421933608400BD36A5 /* Build configuration list for PBXProject "Mixpanel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33D6853E1933608400BD36A5;
+			productRefGroup = 33D685481933608400BD36A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D685461933608400BD36A5 /* Mixpanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D685431933608400BD36A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D6858E1933612200BD36A5 /* MPSurveyNavigationController.m in Sources */,
+				33D685921933612200BD36A5 /* UIColor+MPColor.m in Sources */,
+				33B025391934F0D000125D87 /* Mixpanel+LLAAdditions.m in Sources */,
+				33D685941933612200BD36A5 /* UIImage+MPImageEffects.m in Sources */,
+				33D6858D1933612200BD36A5 /* MPSurvey.m in Sources */,
+				33D6858F1933612200BD36A5 /* MPSurveyQuestion.m in Sources */,
+				33D685901933612200BD36A5 /* MPSurveyQuestionViewController.m in Sources */,
+				33D685911933612200BD36A5 /* NSData+MPBase64.m in Sources */,
+				33D685951933612200BD36A5 /* UIView+MPSnapshotImage.m in Sources */,
+				33D6858C1933612200BD36A5 /* MPNotificationViewController.m in Sources */,
+				33D6858A1933612200BD36A5 /* Mixpanel.m in Sources */,
+				33D685931933612200BD36A5 /* UIImage+MPAverageColor.m in Sources */,
+				33D6858B1933612200BD36A5 /* MPNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33D685681933608400BD36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33D685691933608400BD36A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D6856B1933608400BD36A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mixpanel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Mixpanel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		33D6856C1933608400BD36A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Mixpanel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Mixpanel-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D685421933608400BD36A5 /* Build configuration list for PBXProject "Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D685681933608400BD36A5 /* Debug */,
+				33D685691933608400BD36A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D6856A1933608400BD36A5 /* Build configuration list for PBXNativeTarget "Mixpanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D6856B1933608400BD36A5 /* Debug */,
+				33D6856C1933608400BD36A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D6853F1933608400BD36A5 /* Project object */;
+}
