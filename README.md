@@ -1,6 +1,6 @@
 # MonoTouch.Mixpanel
 
-MonoTouch bindings to the [Mixpanel SDK](https://mixpanel.com/help/reference/ios) (v2.3.6).
+Xamarin MonoTouch bindings to the [Mixpanel SDK](https://mixpanel.com/help/reference/ios) (v2.3.6).
 
 ## Usage
 
